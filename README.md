@@ -53,213 +53,215 @@ This repository focuses on research whose **primary goal** is to **recover or en
 - [TDSC](#tdsc)
 
 ### **📌 Other Conferences**
-* [ICLR](#iclr), [ICML](#icml), [NeurIPS](#neurips), [ACL](#acl), [EMNLP](#emnlp), [ACSAC](#acsac), [ASIACCS](#asiaccs), [ICSME](#icsme), [SANER](#saner)
+* [ICLR](#iclr), [ICML](#icml), [NeurIPS](#neurips), [ACL](#acl), [EMNLP](#emnlp), [ACSAC](#acsac), [ASIACCS](#asiaccs), [ICSME](#icsme), [SANER](#saner), [arXiv](#arxiv), [other](#other)
 
-### **📊 Benchmarks & SoKs**
+### [**📊 Benchmarks、Study & SoKs**](#-benchmarksstudy--soks)
+* [benchmark-dataset](#benchmarkdataset)
 
 ### **🛠️ Collected Tools**
+* [collected-tools](#collected-tools)
 
 ---
-# 📚 Conferences
+## 📚 Conferences
 
-## S&P
+### S&P
 ([25](#sp2025), [24](#sp2024), [23](#sp2023))
 
-### sp2025
+#### sp2025
 
 - [Data-Code Separation] [You Can't Judge a Binary by Its Header: Data-Code Separation for Non-Standard ARM Binaries Using Pseudo Labels](https://ieeexplore.ieee.org/document/11023308/).
 - [Decompilation] [PyLingual: Toward Perfect Decompilation of Evolving High-Level Languages](https://kangkookjee.io/wp-content/uploads/2025/09/pylingual-blackhat24-1.pdf). [[repo](https://github.com/syssec-utd/pylingual)].
 - [Composite Type Inference] [TypeForge: Synthesizing and Selecting Best-Fit Composite Data Types for Stripped Binaries](https://noobone123.github.io/papers/typeforge-sp25.pdf).
 
-### sp2024
+#### sp2024
 
 - [Variable Naming] [Len or index or count, anything but v1": Predicting Variable Names in Decompilation Output with Transfer Learning](https://ieeexplore.ieee.org/document/10646727/). [[repo](https://github.com/sefcom/VarBERT)].
 
-### sp2023
+#### sp2023
 
 - [Control Flow Recovery] [Callee: Recovering Call Graphs for Binaries with Transfer and Contrastive Learning](https://arxiv.org/abs/2111.01415). [[repo](https://github.com/vul337/Callee)].
 - [Function Naming] [XFL: Naming Functions in Binaries with Extreme Multi-label Learning](https://doi.ieeecomputersociety.org/10.1109/SP46215.2023.10179439). [[repo](https://github.com/lmu-plai/xfl)].
 
 ---
 
-## CCS
+### CCS
 ([25](#ccs2025), [24](#ccs2024), [22](#ccs2022), [21](#ccs2021))
 
-### ccs2025
+#### ccs2025
 
 - [Instruction Recovery, Function Recovery, Control Flow Recovery] [Disa: Accurate Learning-based Static Disassembly with Attentions](https://doi.org/10.1145/3719027.3744828). [[repo](https://github.com/peicwang/Disa)].
 
-### ccs2024
+#### ccs2024
 
 - [Variable Naming, Type Inference] [ReSym: Harnessing LLMs to Recover Variable and Data Structure Symbols from Stripped Binaries](https://doi.org/10.1145/3658644.3670340). [[repo](https://github.com/lt-asset/resym/)].
 
-### ccs2022
+#### ccs2022
 
 - [Function Naming] [SymLM: Predicting Function Names in Stripped Binaries via Context-Sensitive Execution-Aware Code Embeddings](https://dl.acm.org/doi/10.1145/3548606.3560612). [[repo](https://github.com/OSUSecLab/SymLM)].
 
-### ccs2021
+#### ccs2021
 
 - [Pretrained-model] [PalmTree: Learning an Assembly Language Model for Instruction Embedding](https://dl.acm.org/doi/10.1145/3460120.3484587). [[repo](https://github.com/palmtreemodel/PalmTree)].
 
 
 ---
 
-## USENIX Security
+### USENIX Security
 ([25](#sec2025), [24](#sec2024), [22](#sec2022))
 
-### sec2025
+#### sec2025
 
 - [Function Naming] [BLens: contrastive captioning of binary functions using ensemble embedding](https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-271-benoit.pdf). [[zenodo](https://doi.org/10.5281/zenodo.14732394)].
 - [Instruction Recovery] [Tady: A Neural Disassembler without Structural Constraint Violations](https://www.usenix.org/conference/usenixsecurity25/presentation/qin). [[repo](https://github.com/5c4lar/tady)].
 
-### sec2024
+#### sec2024
 
 - [Type Inference] [TYGR: type inference on stripped binaries using graph neural networks](https://www.usenix.org/conference/usenixsecurity24/presentation/zhu-chang). [[repo](https://github.com/sefcom/TYGR)].
 
-### sec2022
+#### sec2022
 
 - [Variable Naming, Type Inference] [Augmenting Decompiler Output with Learned Variable Names and Types](https://www.usenix.org/conference/usenixsecurity22/presentation/chen-qibin). [[repo](https://github.com/CMUSTRUDEL/DIRTY)].
 - [Instruction Recovery, Function Recovery] [DeepDi: Learning a Relational Graph Convolutional Network Model on Instructions for Fast and Accurate Disassembly](https://www.usenix.org/conference/usenixsecurity22/presentation/yu-sheng). [[repo](https://github.com/DeepBitsTechnology/DeepDi)].
 
 ---
 
-## NDSS
+### NDSS
 ([26](#ndss2026), [25](#ndss2025), [24](#ndss2024), [21](#ndss2021))
 
-### ndss2026
+#### ndss2026
 
 - [Code Refinement] [FidelityGPT: Correcting Decompilation Distortions with Retrieval Augmented Generation](http://arxiv.org/abs/2510.19615). [[repo](https://github.com/ZhouZhiping045/FidelityGPT)].
 - [Decompilation, Composite type inference, Variable Naming] [Idioms: Neural Decompilation With Joint Code and Type Definition Prediction](https://www.ndss-symposium.org/wp-content/uploads/2026-f795-paper.pdf). [[repo](https://github.com/squaresLab/idioms)].
 
-### ndss2025
+#### ndss2025
 
 - [Variable Naming] [Unleashing the Power of Generative Model in Recovering Variable Names from Stripped Binary](https://www.ndss-symposium.org/ndss-paper/unleashing-the-power-of-generative-model-in-recovering-variable-names-from-stripped-binary/). [[repo](https://doi.org/10.5281/zenodo.14220042)].
 - [Function Naming] [Beyond Classification: Inferring Function Names in Stripped Binaries via Domain Adapted LLMs](https://www.ndss-symposium.org/ndss-paper/beyond-classification-inferring-function-names-in-stripped-binaries-via-domain-adapted-llms/). [[repo](https://github.com/OSUSecLab/SymGen)].
 
-### ndss2024
+#### ndss2024
 
 - [Variable Naming, Binary Summarization, Code Refinement] [DeGPT: Optimizing Decompiler Output with LLM](https://www.ndss-symposium.org/ndss-paper/degpt-optimizing-decompiler-output-with-llm/). [[repo](https://github.com/PeiweiHu/DeGPT)].
 
-### ndss2021
+#### ndss2021
 
 - [Instruction Recovery, Function Recovery] [XDA: Accurate, Robust Disassembly with Transfer Learning](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_1B-3_23112_paper.pdf). [[repo](https://github.com/CUMLSec/XDA)].
 
 
 ---
 
-## ICSE
+### ICSE
 ([22](#icse2022))
 
-### icse2022
+#### icse2022
 
 - [Binary Structure Recovery] [Modx: Binary Level Partial Imported Third-Party Library Detection through Program Modularization and Semantic Matching](http://arxiv.org/abs/2204.08237).
 
 
 ---
 
-## FSE
+### FSE
 ([25](#fse2025), [24](#fse2024), [23](#fse2023), [22](#fse2022), [21](#fse2021))
 
-### fse2025
+#### fse2025
 
 - [Variable Naming, Decompilation] [DiSCo: Towards Decompiling EVM Bytecode to Source Code using Large Language Models](https://doi.org/10.1145/3729373). [[online](https://suxnju.github.io/disco/)].
 - [Binary Summarization] [MiSum: Multi-modality Heterogeneous Code Graph Learning for Multi-intent Binary Code Summarization](https://doi.org/10.1145/3715780). [[repo](https://github.com/Kobe-Zed/MiSum)].
 - [Type Inference] [Recasting Type Hints from WebAssembly Contracts](https://doi.org/10.1145/3729388). [[repo](https://github.com/sepine/WasmHint)].
 
-### fse2024
+#### fse2024
 
 - [Function Naming] [Enhancing Function Name Prediction using Votes-Based Name Tokenization and Multi-task Learning](https://doi.org/10.1145/3660782). [[repo](https://github.com/Xiaolinger-Z/Epitome)].
 
-### fse2023
+#### fse2023
 
 - [Type Inference] [DeepInfer: Deep Type Inference from Smart Contract Bytecode](https://doi.org/10.1145/3611643.3616343). [[repo](https://github.com/sepine/DeepInfer)].
 - [Function Recovery] [FunProbe: Probing Functions from Binary Code through Probabilistic Analysis](https://dl.acm.org/doi/10.1145/3611643.3616366). [[repo](https://github.com/sepine/FunProbe)].
 
-### fse2022
+#### fse2022
 
 - [Memory Dependence Analysis] [NeuDep: neural binary memory dependence analysis](https://dl.acm.org/doi/10.1145/3540250.3549147).
 
-### fse2021
+#### fse2021
 
 - [Type Inference] [StateFormer: fine-grained type recovery from binaries using generative state modeling](https://doi.org/10.1145/3468264.3468607). [[repo](https://github.com/CUMLSec/stateformer)].
 
 
 ---
 
-## ASE
+### ASE
 ([25](#ase2025), [24](#ase2024), [23](#ase2023))
 
-### ase2025
+#### ase2025
 
 - [Binary Structure Recovery] [BinStruct: Binary Structure Recovery Combining Static Analysis and Semantics](https://ieeexplore.ieee.org/document/11334428). [[online](https://sites.google.com/view/binstruct/home)].
 - [Code Refinement] [PseudoFix: Refactoring Distorted Structures in Decompiled C Pseudocode](https://ieeexplore.ieee.org/document/11334626). [[repo](https://github.com/giles-one/PseudoFix)].
 
-### ase2024
+#### ase2024
 
 - [Type Inference] [TypeFSL: Type Prediction from Binaries via Inter-procedural Data-flow Analysis and Few-shot Learning](https://doi.org/10.1145/3691620.3695502). [[repo](https://github.com/CupCupRay/TypeFSL)].
 - [Decompilation] [WaDec: Decompiling WebAssembly Using Large Language Model](https://doi.org/10.1145/3691620.3695020). [[repo](https://github.com/XinyuShe/WaDec)].
 
-### ase2023
+#### ase2023
 
 - [Pretrained-model, Binary Summarization, Function Naming, Variable Naming, etc] [HexT5: Unified Pre-Training for Stripped Binary Code Information Inference](https://ieeexplore.ieee.org/document/10298504/). [[repo](https://github.com/USTC-TTCN/HexT5)].
 
 
 ---
 
-## ISSTA
+### ISSTA
 ([25](#issta2025), [24](#issta2024), [21](#issta2021))
 
-### issta2025
+#### issta2025
 
 - [Code Refinement] [DecLLM: LLM-Augmented Recompilable Decompilation for Enabling Programmatic Use of Decompiled Code](https://doi.org/10.1145/3728958). [[online](https://sites.google.com/view/decllm)].
 
-### issta2024
+#### issta2024
 
 - [Pretrained-model, Binary Summarization] [CLAP: Learning Transferable Binary Code Representations with Natural Language Supervision](https://dl.acm.org/doi/10.1145/3650212.3652145). [[repo](https://github.com/Hustcw/CLAP)].
 - [Binary Structure Recovery] [DeLink: Source File Information Recovery in Binaries](https://doi.org/10.1145/3650212.3680338).
 - [Type Inference, Binary Summarization] [Multi-modal Learning for WebAssembly Reverse Engineering](https://doi.org/10.1145/3650212.3652141).
 
-### issta2021
+#### issta2021
 
 - [Function Naming] [A lightweight framework for function name reassignment based on large-scale stripped binaries](https://doi.org/10.1145/3460319.3464804). [[repo](https://github.com/USTC-TTCN/NFRE)].
 
 
 ---
 
-## PLDI
+### PLDI
 ([22](#pldi2022))
 
-### pldi2022
+#### pldi2022
 
 - [Type Inference] [Finding the Dwarf: Recovering Precise Types from WebAssembly Binaries](https://doi.org/10.1145/3519939.3523449). [[repo](https://github.com/sola-st/wasm-type-prediction)].
 
 
 ---
 
-# 📜 Journals
+## 📜 Journals
 
-## TOSEM
+### TOSEM
 ([26](#tosem2026), [25](#tosem2025), [23](#tosem2023))
 
-### tosem2026
+#### tosem2026
 
 - [Type Inference, Variable Naming] [HyRES: Recovering Data Structures in Binaries via Semantic Enhanced Hybrid Reasoning](https://dl.acm.org/doi/10.1145/3736719). [[repo](https://github.com/Sandspeare/HyRES)].
 
-### tosem2025
+#### tosem2025
 
 - [Binary Summarization] [ByteCue: enhancing bytecode comment generation with API information](https://dl.acm.org/doi/10.1145/3772717). [[repo](https://github.com/kaykayhard/ByteCue)].
 - [Type Inference] [Beyond the Edge of Function: Unraveling the Patterns of Type Recovery in Binary Code](http://arxiv.org/abs/2503.07243). [[repo](https://github.com/giles-one/ByteTR)].
 - [Binary Summarization] [Automating Comment Generation for Smart Contract from Bytecode](https://dl.acm.org/doi/10.1145/3699597). [[figshare](https://figshare.com/s/e5f3f9371ca67a63c122)].
 - [Function Naming] [llasm: Naming Functions in Binaries by Fusing Encoder-only and Decoder-only LLMs](https://dl.acm.org/doi/10.1145/3702988). [[repo](https://github.com/Sandspeare/llasm)].
 
-### tosem2023
+#### tosem2023
 
 - [Variable Naming] [DIRE and its Data: Neural Decompiled Variable Renamings with Respect to Software Class](https://doi.org/10.1145/3546946).
 
 
 ---
 
-## TSE
+### TSE
 ([25](#tse2025), [22](#tse2022))
 
 ### tse2025
@@ -273,105 +275,105 @@ This repository focuses on research whose **primary goal** is to **recover or en
 
 ---
 
-## TIFS
+### TIFS
 ([25](#tifs2025))
 
-### tifs2025
+#### tifs2025
 
 - [Binary Summarization] [Malsight: Exploring Malicious Source Code and Benign Pseudocode for Iterative Binary Malware Summarization](https://ieeexplore.ieee.org/document/11052730/).
 
 
 ---
 
-# 📌 Other Conferences
+## 📌 Other Papers
 
 ---
 
-## ICLR
+### ICLR
 ([26](#iclr2026), [25](#iclr2025))
 
-### iclr2026
+#### iclr2026
 
 - [Function Naming, Variable Naming, Decompilation] [SK2Decompile: LLM-based Two-Phase Binary Decompilation from Skeleton to Skin](http://arxiv.org/abs/2509.22114). [[repo](https://github.com/albertan017/LLM4Decompile)].
 
-### iclr2025
+#### iclr2025
 
 - [Decompilation] [Nova: Generative Language Models for Assembly Code with Hierarchical Attention and Contrastive Learning](http://arxiv.org/abs/2311.13721). [[repo](https://github.com/lt-asset/nova)].
 
 
 ---
 
-## ICML
+### ICML
 ([24](#icml2024))
 
-### icml2024
+#### icml2024
 
 - [Decompilation, Variable Naming, Binary Summarization] [StackSight: Unveiling WebAssembly through Large Language Models and Neurosymbolic Chain-of-Thought Decompilation](http://arxiv.org/abs/2406.04568).
 
 
 ---
 
-## EMNLP
+### EMNLP
 ([24](#emnlp2024), [23](#emnlp2023))
 
-### emnlp2024
+#### emnlp2024
 
 - [Decompilation] [LLM4Decompile: Decompiling Binary Code with Large Language Models](http://arxiv.org/abs/2403.05286). [[repo](https://github.com/albertan017/LLM4Decompile)].
 
-### emnlp2023
+#### emnlp2023
 
 - [Binary Summarization] [CP-BCS: binary code summarization guided by control flow graph and pseudo code](https://arxiv.org/abs/2310.16853). [[repo](https://github.com/tongye98/BinaryCodeSummary)].
 
 
 ---
 
-## ACSAC
+### ACSAC
 ([25](#acsac2025), [22](#acsac2022))
 
-### acsac2025
+#### acsac2025
 
 - [Binary Summarization] [AndroByte: LLM-Driven Privacy Analysis through Bytecode Summarization and Dynamic Dataflow Call Graph Generation](http://arxiv.org/abs/2510.15112). [[repo](https://github.com/Eshita66/AndroByte)].
 
-### acsac2022
+#### acsac2022
 
 - [Decompilation] [Boosting neural networks to decompile optimized binaries](http://arxiv.org/abs/2301.00969). [[repo](https://github.com/zijiancogito/neur-dp-data.git)].
 
 
 ---
 
-## ASIACCS
+### ASIACCS
 ([24](#asiaccs2024), [23](#asiaccs2023))
 
-### asiaccs2024
+#### asiaccs2024
 
 - [Function Naming] [BinAdapter: Leveraging Continual Learning for Inferring Function Symbol Names in a Binary](https://dl.acm.org/doi/10.1145/3634737.3645006). [[repo](https://github.com/SecAI-Lab/BinAdapter)].
 
-### asiaccs2023
+#### asiaccs2023
 
 - [Function Naming] [A Transformer-based Function Symbol Name Inference Model from an Assembly Language for Binary Reversing](https://dl.acm.org/doi/10.1145/3579856.3582823). [[repo](https://github.com/agwaBom/AsmDepictor)].
 
 
 ---
 
-## SANER
+### SANER
 ([23](#saner2023))
 
-### saner2023
+#### saner2023
 
 - [Binary Summarization] [Extending Source Code Pre-Trained Language Models to Summarise Decompiled Binaries](https://ieeexplore.ieee.org/document/10123452/). [[zenodo](https://doi.org/10.5281/zenodo.7229809)].
 
 ---
 
-## arXiv
+### arXiv
 ([26](#arxiv2026), [25](#arxiv2025), [24](#arxiv2024), [23](#arxiv2023), [22](#arxiv2022))
 
-### arxiv2026
+#### arxiv2026
 
 - [Code Refinement] [PCodeTrans: Translate Decompiled Pseudocode to Compilable and Executable Equivalent](https://arxiv.org/abs/2603.14855).
 - [Code Refinement] [From Transactions to Exploits: Automated PoC Synthesis for Real-World DeFi Attacks](http://arxiv.org/abs/2601.16681).
 - [Control Flow Recovery] [iResolveX: Multi-Layered Indirect Call Resolution via Static Reasoning and Learning-Augmented Refinement](https://arxiv.org/pdf/2601.17888v1).
 
-### arxiv2025
+#### arxiv2025
 
 - [Function Naming] [AGNOMIN -- Architecture Agnostic Multi-Label Function Name Prediction](https://arxiv.org/abs/2509.25514). [[repo](https://github.com/Xiaolinger-Z/Epitome)].
 - [Decompilation] [Beyond C/C++: Probabilistic and LLM Methods for Next-Generation Software Reverse Engineering](https://arxiv.org/abs/2506.03504).
@@ -383,13 +385,13 @@ This repository focuses on research whose **primary goal** is to **recover or en
 - [Decompilation] [Context-Guided Decompilation: A Step Towards Re-executability](https://arxiv.org/abs/2511.01763).
 - [Decompilation] [Decompiling Smart Contracts with a Large Language Model](https://arxiv.org/pdf/2506.19624).
 
-### arxiv2024
+#### arxiv2024
 
 - [Instruction Recovery] [Disassembling Obfuscated Executables with LLM](http://arxiv.org/abs/2407.08924).
 - [Type Inference, Variable Naming] [STRIDE: Simple Type Recognition In Decompiled Executables](http://arxiv.org/abs/2407.02733).
 - [Function Naming, Variable Naming, Code Refinement] [Exploring the Efficacy of Large Language Models (GPT-4) in Binary Reverse Engineering](https://arxiv.org/abs/2406.06637). [[repo](https://github.com/sinapordanesh/ENEL-592-Project)].
 
-## Other
+### Other
 
 - [BAR-2022] [Beyond the C: Retargetable Decompilation using  Neural Machine Translation](http://arxiv.org/abs/2212.08950). [[repo](https://figshare.com/s/2c68b9c181e80f4e3b06)].
 - [CGO-2024] [SLaDe: A Portable Small Language Model Decompiler for Optimized Assembly](https://ieeexplore.ieee.org/abstract/document/10497336). [[zenodo](https://doi.org/10.5281/zenodo.10205121)].
@@ -411,7 +413,7 @@ This repository focuses on research whose **primary goal** is to **recover or en
 
 ---
 
-# 📊 Benchmarks、Study & SoKs
+## 📊 Benchmarks、Study & SoKs
 - [NDSS-2026] [Decompiling the Synergy: An Empirical Study of Human–LLM Teaming in Software Reverse Engineering](https://www.ndss-symposium.org/ndss-paper/decompiling-the-synergy-an-empirical-study-of-human-llm-teaming-in-software-reverse-engineering/).
 - [arXiv-2026] [REBENCH: A Procedural, Fair-by-Construction Benchmark for  LLMs on Stripped-Binary Types and Names](https://arxiv.org/abs/2604.27319). [[zenodo](https://zenodo.org/records/19899116)].
 - [arXiv-2025] [An Empirical Study on the Effectiveness of Large Language Models for Binary Code Understanding](http://arxiv.org/abs/2504.21803). [[repo](https://github.com/Sxxxw/BinaryLLMs-Eval)]
@@ -431,7 +433,7 @@ This repository focuses on research whose **primary goal** is to **recover or en
 - [arXiv-2022] [Pop Quiz! Can a Large Language Model Help With Reverse Engineering?](https://arxiv.org/abs/2202.01142). [[repo](https://doi.org/10.5281/zenodo.5949075)].
 - [SP-2021] [SoK: All You Ever Wanted to Know About x86/x64 Binary Disassembly But Were Afraid to Ask](https://arxiv.org/abs/2007.14266). [[repo](https://github.com/junxzm1990/x86-sok)].
 
-# 🛠️ Collected Tools
+## 🛠️ Collected Tools
 
 | Tool | Last Commit | Stars |
 | :--- | :--- | :---: |
