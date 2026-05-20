@@ -48,7 +48,7 @@ This repository focuses on research whose **primary goal** is to **recover or en
 ### **📌 Other Papers**
 * [ICLR](#iclr), [ICML](#icml), [NeurIPS](#neurips), [ACL](#acl), [EMNLP](#emnlp), [ACSAC](#acsac), [ASIACCS](#asiaccs), [ICSME](#icsme), [SANER](#saner), [arXiv](#arxiv), [other](#other)
 
-### [**📊 Benchmarks、Study & SoKs**](#-benchmarksstudy--soks)
+### **📊 Benchmarks、Study & SoKs**
 * [benchmark-dataset](#-benchmarksstudy--soks-1)
 
 ### **🛠️ Collected Tools**
