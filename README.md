@@ -38,31 +38,24 @@ This repository focuses on research whose **primary goal** is to **recover or en
 
 ## 📌 Table of Contents
 
-### **📖 Conferences**
-| Security & Privacy | Software Engineering | 
-| :---------------------------------: | :---------------------------------: |
-| [S&P](#sp) | [ICSE](#icse) |
-| [CCS](#ccs) | [FSE](#fse) |
-| [USENIX Security](#usenix-security) | [ASE](#ase) |
-| [NDSS](#ndss) | [ISSTA](#issta) |
+### **📖 Top Conferences**
 
-### **📜 Journals**
-- [TOSEM](#tosem)
-- [TSE](#tse)
-- [TIFS](#tifs)
-- [TDSC](#tdsc)
+* [S&P](#sp), [CCS](#ccs), [USENIX Security](#sec), [NDSS](#ndss), [ICSE](#icse), [FSE](#fse), [ASE](#ase), [ISSTA](#issta), [PLDI](#pldi)
 
-### **📌 Other Conferences**
+### **📜 Top Journals**
+* [TOSEM](#tosem), [TSE](#tse), [TIFS](#tifs), [TDSC](#tdsc)
+
+### **📌 Other Papers**
 * [ICLR](#iclr), [ICML](#icml), [NeurIPS](#neurips), [ACL](#acl), [EMNLP](#emnlp), [ACSAC](#acsac), [ASIACCS](#asiaccs), [ICSME](#icsme), [SANER](#saner), [arXiv](#arxiv), [other](#other)
 
 ### [**📊 Benchmarks、Study & SoKs**](#-benchmarksstudy--soks)
-* [benchmark-dataset](#benchmarkdataset)
+* [benchmark-dataset](#-benchmarksstudy--soks-1)
 
 ### **🛠️ Collected Tools**
-* [collected-tools](#collected-tools)
+* [collected-tools](#🛠️-collected-tools-1)
 
 ---
-## 📚 Conferences
+## 📚 Top Conferences
 
 ### S&P
 ([25](#sp2025), [24](#sp2024), [23](#sp2023))
@@ -238,7 +231,7 @@ This repository focuses on research whose **primary goal** is to **recover or en
 
 ---
 
-## 📜 Journals
+## 📜 Top Journals
 
 ### TOSEM
 ([26](#tosem2026), [25](#tosem2025), [23](#tosem2023))
