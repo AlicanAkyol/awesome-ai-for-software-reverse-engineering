@@ -264,11 +264,11 @@ This repository focuses on research whose **primary goal** is to **recover or en
 ### TSE
 ([25](#tse2025), [22](#tse2022))
 
-### tse2025
+#### tse2025
 
 - [Function Recovery, Type Inference, Code Refinement] [Augmenting Smart Contract Decompiler Output Through Fine-Grained Dependency Analysis and LLM-Facilitated Semantic Recovery](https://doi.ieeecomputersociety.org/10.1109/TSE.2025.3623325). [[code](https://github.com/Janelinux/SmartHalo)].
 
-### tse2022
+#### tse2022
 
 - [Inline Function Recovery] [Learning to Find Usages of Library Functions in Optimized Binaries](https://doi.ieeecomputersociety.org/10.1109/TSE.2021.3106572).
 
