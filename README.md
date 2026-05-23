@@ -1,4 +1,4 @@
-# Awesome Learning-based Reverse Engineering [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome AI for Software Reverse Engineering [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated collection of learning-based reverse engineering research, focusing on recovering and understanding low-level code using machine learning, deep learning, and large language models (LLMs).
 
