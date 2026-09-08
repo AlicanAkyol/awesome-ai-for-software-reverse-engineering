@@ -58,7 +58,11 @@ This repository focuses on research whose **primary goal** is to **recover or en
 ## 📚 Top Conferences
 
 ### S&P
-([25](#sp2025), [24](#sp2024), [23](#sp2023))
+([26](#sp2026), [25](#sp2025), [24](#sp2024), [23](#sp2023))
+
+#### sp2026
+
+- [Decompilation] [Oxidizer: Toward Concise and High-fidelity Rust Decompilation](https://adamdoupe.com/publications/oxidizer-oakland2026.pdf). [[repo](https://github.com/sefcom/oxidizer)]
 
 #### sp2025
 
@@ -182,7 +186,11 @@ This repository focuses on research whose **primary goal** is to **recover or en
 ---
 
 ### ASE
-([25](#ase2025), [24](#ase2024), [23](#ase2023))
+([26](#ase2026), [25](#ase2025), [24](#ase2024), [23](#ase2023))
+
+#### ase2026
+
+- [Evaluation] [Beyond Text Matching: Towards Reference-Free Evaluation for  Human-Oriented Binary Reverse Engineering](http://arxiv.org/abs/2608.07038). [[artifacts](https://doi.org/10.5281/zenodo.19247812)]
 
 #### ase2025
 
@@ -362,6 +370,7 @@ This repository focuses on research whose **primary goal** is to **recover or en
 
 #### arxiv2026
 
+- [Decompilation] [Binary Decompilation LLM with Feedback-Driven Multi-Turn Refinement](http://arxiv.org/abs/2606.16162). [[hugging face](https://huggingface.co/AutoDecompiler)]
 - [Code Refinement] [PCodeTrans: Translate Decompiled Pseudocode to Compilable and Executable Equivalent](https://arxiv.org/abs/2603.14855).
 - [Code Refinement] [From Transactions to Exploits: Automated PoC Synthesis for Real-World DeFi Attacks](http://arxiv.org/abs/2601.16681).
 - [Control Flow Recovery] [iResolveX: Multi-Layered Indirect Call Resolution via Static Reasoning and Learning-Augmented Refinement](https://arxiv.org/pdf/2601.17888v1).
@@ -385,7 +394,7 @@ This repository focuses on research whose **primary goal** is to **recover or en
 - [Function Naming, Variable Naming, Code Refinement] [Exploring the Efficacy of Large Language Models (GPT-4) in Binary Reverse Engineering](https://arxiv.org/abs/2406.06637). [[repo](https://github.com/sinapordanesh/ENEL-592-Project)].
 
 ### Other
-
+- [CNSSE-2026] [From Heuristics to Transformers: A Comprehensive Survey of  Type Inference from Stripped Binaries](http://arxiv.org/abs/2606.23692).
 - [BAR-2022] [Beyond the C: Retargetable Decompilation using  Neural Machine Translation](http://arxiv.org/abs/2212.08950). [[repo](https://figshare.com/s/2c68b9c181e80f4e3b06)].
 - [CGO-2024] [SLaDe: A Portable Small Language Model Decompiler for Optimized Assembly](https://ieeexplore.ieee.org/abstract/document/10497336). [[zenodo](https://doi.org/10.5281/zenodo.10205121)].
 - [CODASPY-2026] [Practical Type Inference: High-Throughput Recovery of Real-World Structures and Function Signatures](http://arxiv.org/abs/2603.08225).
@@ -407,6 +416,9 @@ This repository focuses on research whose **primary goal** is to **recover or en
 ---
 
 ## 📊 Benchmarks、Study & SoKs
+- [CSUR-2026] [A Survey of Symbol Name Recovery in Sotware Reverse Engineering](https://dl.acm.org/doi/pdf/10.1145/3844948).
+- [Arxiv-2026] [SoK: AI-Augmented Binary Reversing](http://arxiv.org/abs/2606.17398).
+- [Github-2026] [DecBench: An experimental living benchmark to measure how close we are to perfect decompilation on binaries.](https://github.com/Noelo-Lab/decbench). [[repo](https://github.com/Noelo-Lab/decbench)]
 - [NDSS-2026] [Decompiling the Synergy: An Empirical Study of Human–LLM Teaming in Software Reverse Engineering](https://www.ndss-symposium.org/ndss-paper/decompiling-the-synergy-an-empirical-study-of-human-llm-teaming-in-software-reverse-engineering/).
 - [arXiv-2026] [REBENCH: A Procedural, Fair-by-Construction Benchmark for  LLMs on Stripped-Binary Types and Names](https://arxiv.org/abs/2604.27319). [[zenodo](https://zenodo.org/records/19899116)].
 - [arXiv-2025] [An Empirical Study on the Effectiveness of Large Language Models for Binary Code Understanding](http://arxiv.org/abs/2504.21803). [[repo](https://github.com/Sxxxw/BinaryLLMs-Eval)]
@@ -430,6 +442,7 @@ This repository focuses on research whose **primary goal** is to **recover or en
 
 | Tool | Last Commit | Stars |
 | :--- | :--- | :---: |
+| [Noelo-Lab/kuna](https://github.com/Noelo-Lab/kuna) | ![Last Commit](https://img.shields.io/github/last-commit/Noelo-Lab/kuna) | [![Stars](https://img.shields.io/github/stars/Noelo-Lab/kuna?style=social)](https://img.shields.io/github/last-commit/Noelo-Lab/kuna) |
 | [cyberkaida/reverse-engineering-assistant](https://github.com/cyberkaida/reverse-engineering-assistant) | ![Last Commit](https://img.shields.io/github/last-commit/cyberkaida/reverse-engineering-assistant) | [![Stars](https://img.shields.io/github/stars/cyberkaida/reverse-engineering-assistant?style=social)](https://github.com/cyberkaida/reverse-engineering-assistant) |
 | [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) | ![Last Commit](https://img.shields.io/github/last-commit/mrexodia/ida-pro-mcp) | [![Stars](https://img.shields.io/github/stars/mrexodia/ida-pro-mcp?style=social)](https://github.com/mrexodia/ida-pro-mcp) |
 | [fosdickio/binary_ninja_mcp](https://github.com/fosdickio/binary_ninja_mcp) | ![Last Commit](https://img.shields.io/github/last-commit/fosdickio/binary_ninja_mcp) | [![Stars](https://img.shields.io/github/stars/fosdickio/binary_ninja_mcp?style=social)](https://github.com/fosdickio/binary_ninja_mcp) |
