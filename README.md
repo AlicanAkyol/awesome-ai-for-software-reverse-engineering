@@ -374,6 +374,7 @@ This repository focuses on research whose **primary goal** is to **recover or en
 
 #### arxiv2026
 
+- [Type inference] [InterType: Breaking the Single-Function Barrier in Neural Binary Type Inference](https://arxiv.org/abs/2610.26906).
 - [Decompilation] [Binary Decompilation LLM with Feedback-Driven Multi-Turn Refinement](http://arxiv.org/abs/2606.16162). [[hugging face](https://huggingface.co/AutoDecompiler)]
 - [Code Refinement] [PCodeTrans: Translate Decompiled Pseudocode to Compilable and Executable Equivalent](https://arxiv.org/abs/2603.14855).
 - [Code Refinement] [From Transactions to Exploits: Automated PoC Synthesis for Real-World DeFi Attacks](http://arxiv.org/abs/2601.16681).
